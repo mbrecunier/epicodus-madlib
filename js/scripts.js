@@ -10,17 +10,24 @@ $(document).ready(function() {
     var noun = $("input#noun").val();
     var adverb = $("input#adverb").val();
 
-    $("span#verbing1").text(verbing1);
-    $("span#feeling").text(feeling);
-    $("span#name").text(name);
-    $("span#pluralnoun").text(pluralnoun);
-    $("span#adjective1").text(adjective1);
-    $("span#verbing2").text(verbing2);
-    $("span#adjective2").text(adjective2);
-    $("span#noun").text(noun);
-    $("span#adverb").text(adverb);
 
-    $("#story").show();
+    if($("#blanks input").val() === "") {
+      alert("Please fill out the text boxes");
+
+    } else {
+      $("span#verbing1").text(verbing1);
+      $("span#feeling").text(feeling);
+      $("span#name").text(name);
+      $("span#pluralnoun").text(pluralnoun);
+      $("span#adjective1").text(adjective1);
+      $("span#verbing2").text(verbing2);
+      $("span#adjective2").text(adjective2);
+      $("span#noun").text(noun);
+      $("span#adverb").text(adverb);
+
+      $("#story").show();
+
+    }
 
     event.preventDefault();
   });
