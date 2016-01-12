@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $("#blanks form").submit(function(event) {
     var verbing1 = $("input#verbing1").val();
     var feeling = $("input#feeling").val();
@@ -13,7 +14,6 @@ $(document).ready(function() {
 
     if($("#blanks input").val() === "") {
       alert("Please fill out the text boxes");
-
     } else {
       $("span#verbing1").text(verbing1);
       $("span#feeling").text(feeling);
@@ -26,9 +26,14 @@ $(document).ready(function() {
       $("span#adverb").text(adverb);
 
       $("#story").show();
-
     }
 
     event.preventDefault();
   });
+
+
+  $(".btn#clear").click(function() {
+    $("#story").hide();
+  });
+
 });
