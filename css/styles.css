@@ -1,3 +1,24 @@
 #story {
   display: none;
 }
+
+body {
+  font-family: cursive;
+  background-color: #EDFDF9;
+}
+
+#blanks {
+  background-color: #FFEAEA;
+}
+
+label {
+  font-size: 1.2em;
+}
+
+.jumbotron {
+  background-color: #FF87A2;
+}
+
+.btn {
+  background-color: #CACAFF;
+}
