@@ -2,6 +2,10 @@
   display: none;
 }
 
+form {
+  padding: 30px;
+}
+
 body {
   font-family: cursive;
   background-color: #EDFDF9;
