@@ -13,6 +13,10 @@ The user can fill in the form and press submit to see their personalized madlib.
 * Clone this repository
 * Open in a standard web browser
 
+--or--
+
+* View on [GitHub Pages] (http://mbrecunier.github.io/epicodus-madlib/)
+
 ## Known Bugs
 
 No known bugs.
